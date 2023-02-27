@@ -1,0 +1,41 @@
+.a{
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
+
+#Portafolio {
+    background: url(img/paisaje2.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 15px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#Portafolio .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#Portafolio .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: 550px;
+}
+
+#portafolio .fila .proyecto{
+    max-width: 350px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 5px;
+    border-right: 5px;
+    transition: .5s;
+}

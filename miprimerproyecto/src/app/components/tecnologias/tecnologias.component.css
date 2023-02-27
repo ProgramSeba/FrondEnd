@@ -1,0 +1,162 @@
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h2{
+    margin-bottom: 10vh;
+    
+}
+
+.sau{
+    height: 60vh !important;
+    background: url(img/4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+h3{
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 30px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: centers;
+    margin: 100px;
+}
+
+.box1{
+    text-align: center;
+    height: 170px;
+    width: 270px;
+    background: burlywood;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 100px;
+}
+.box1:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+}
+.box-container .box {
+    height: 170px;
+    width: 270px;
+    background: burlywood;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 100px;
+}
+
+.box-container .box:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?82cna4');
+    src:  url('fonts/icomoon.eot?82cna4#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?82cna4') format('truetype'),
+      url('fonts/icomoon.woff?82cna4') format('woff'),
+      url('fonts/icomoon.svg?82cna4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-lab:before {
+    content: "\e9aa";
+  }
+  .icon-download3:before {
+    content: "\e9c7";
+  }
+  .icon-embed2:before {
+    content: "\ea80";
+  }
+  .icon-terminal:before {
+    content: "\ea81";
+  }
+
+.icon-lab{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 880px;
+    color: chartreuse;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: cadetblue;
+    
+}
+
+.icon-embed2{
+    height: 100px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: darkgoldenrod;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.icon-download3{
+    height: 100px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: darkgoldenrod;
+    font-size: 50px;
+    margin: 10px 0;
+
+}
+
+.icon-terminal{
+    height: 100px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: darkgoldenrod;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.a{
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
