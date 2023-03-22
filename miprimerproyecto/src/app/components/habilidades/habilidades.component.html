@@ -30,7 +30,35 @@
             <div id="git" class="barra-progreso3"></div>
         </div>
     </div>
+
+    <div class="col-lg-2">
+        <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged">Nueva skill</button>
+    </div>
+
+
+    <div class="skills" *ngFor="let skill of skill">
+        <div class="info">
+            <p><span class="lista">(skill.nombre)</span></p>
+            <span class="porcentaje">(skill.porcentaje)</span>
+        </div>
+        <div class="barra">
+            <div id="sql" class="barra-progreso2"></div>
+        </div>
+
+        <td *ngIf="isLogged">
+            <button class="btn btn-light" routerLink="/edithys/{{skill.id}}">
+                <i class="bi bi-pencil-fill"></i></button>
+        </td>
+        <td *ngIf="isLogged">
+            <button class="btn btn-danger" (click)="delete(skill.id)">
+                <i class="bi bi-trash-fill"></i></button>
+        </td>
+    </div>
+
+
 </div>
+
+
 <section>
     <div class="a">
         <p>.</p>

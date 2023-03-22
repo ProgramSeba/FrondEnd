@@ -1,5 +1,5 @@
 .AR{
-    width: 100%;
+    width: 15%;
     height: 100%;
     background: url(img/APLogo.png) no-repeat center;
     background-size: cover;  
@@ -7,12 +7,12 @@
 
 .social{
     display: flex;
-    margin-left: 925px;
+    
 }
 
 .navbar{ 
     display: flex;
-    margin-right: 10px;
+    
 }
 
 .navbar a {
@@ -20,7 +20,7 @@
     padding: 15px 20px;
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .navbar a:hover {

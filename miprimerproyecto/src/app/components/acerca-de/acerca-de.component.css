@@ -1,7 +1,7 @@
 .box2 {
     width: 800px;
     height: 300px;
-    background: url(img/4.jpg) no-repeat center;
+    background: url(../../../assets/Yo.jpeg) no-repeat center;
     background-size: cover;
     border-radius: 50%;
 }

@@ -18,14 +18,14 @@
             <a href="#sobremi">Sobre mi</a>
             <a href="#Tecnologías">Tecnologías</a>
             <a href="#habilidades1">Habilidades</a>
-            <a href="#Portafolio">Mis cursos</a>
-            <a href="#contacto">Contacto</a>
-            <div class="social">
+            <a href="#Portafolio">Mis cursos</a> 
+        </nav>
+        <div class="social">
             <a href="#"><img src="../../../assets/instagram.png" width="30px"></a>
             <a href="https://github.com/"><img src="../../../assets/github.png" width="30px"></a>
-            <a href="/login">Login</a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
         </div>
-        </nav>
      </div>
      <!--Presentación-->
     </section>

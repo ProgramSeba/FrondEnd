@@ -1,0 +1,18 @@
+.header {    
+    text-align: center;
+    
+    font-size: 60px;
+    font-weight: 600px;  
+    height: 60vh !important;
+    background: url(img/Paisaje.jpg) no-repeat center;
+    background-size: cover; 
+}
+
+.a{
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
